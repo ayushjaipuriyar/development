@@ -1,0 +1,18 @@
+{
+	"editor.fontFamily": "'Source Code Pro','FiraCode Nerd Font Mono','Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+	"editor.wordWrap": "on",
+	"prettier.jsxSingleQuote": true,
+	"prettier.useTabs": true,
+	"javascript.format.insertSpaceAfterOpeningAndBeforeClosingJsxExpressionBraces": true,
+	"javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": true,
+	"javascript.format.insertSpaceAfterOpeningAndBeforeClosingTemplateStringBraces": true,
+	"javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyParenthesis": true,
+	"javascript.format.semicolons": "insert",
+	"typescript.format.semicolons": "insert",
+	"eslint.format.enable": true,
+	"editor.formatOnPaste": true,
+	"editor.formatOnType": true,
+	"typescript.format.insertSpaceAfterTypeAssertion": true,
+	"editor.formatOnSave": true,
+	"editor.tabSize": 2
+}

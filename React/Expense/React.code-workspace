@@ -1,0 +1,18 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"emmet.showSuggestionsAsSnippets": true,
+		"emmet.triggerExpansionOnTab": true,
+		"emmet.includeLanguages": {
+			"javascript": "javascriptreact"
+		},
+		"prettier.singleQuote": true,
+		"prettier.useTabs": true,
+		"prettier.jsxSingleQuote": true,
+		"editor.fontFamily": "\"FiraCode Nerd Font Mono\"",
+	}
+}

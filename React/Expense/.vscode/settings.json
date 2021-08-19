@@ -1,0 +1,13 @@
+{
+    "prettier.jsxSingleQuote": true,
+    "prettier.tabWidth": 4,
+    "prettier.singleQuote": true,
+    "prettier.useTabs": true,
+    "javascript.preferences.quoteStyle": "single",
+    "javascript.format.semicolons": "insert",
+    "javascript.format.placeOpenBraceOnNewLineForControlBlocks": true,
+    "javascript.format.placeOpenBraceOnNewLineForFunctions": true,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "editor.fontFamily": "\"FiraCode Nerd Font Mono\"",
+    "editor.formatOnSave": true
+}

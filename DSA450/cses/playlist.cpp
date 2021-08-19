@@ -1,0 +1,12 @@
+#include <bits/stdc++.h>
+#include <iostream>
+using namespace std;
+
+const int mx = 2e5;
+int main() {
+  int n, arr[mx], count = 0;
+  ;
+  cin >> n;
+  for (int i = 0; i < n; i++)
+    cin >> arr[i];
+}
