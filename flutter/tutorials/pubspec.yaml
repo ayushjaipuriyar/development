@@ -1,0 +1,471 @@
+name: tutorials
+description: A new Flutter project.
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.1 <3.0.0'
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^2.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  # assets:
+  #   - images/a_dot_burr.jpeg
+  #   - images/a_dot_ham.jpeg
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
+  assets:
+    - /home/ayush/github/development/flutter/tutorials/
+    - ios/
+    - ios/Runner/
+    - ios/Runner/Base.lproj/
+    - ios/Runner/Assets.xcassets/
+    - ios/Runner/Assets.xcassets/AppIcon.appiconset/
+    - ios/Runner/Assets.xcassets/LaunchImage.imageset/
+    - ios/Flutter/
+    - ios/Runner.xcodeproj/
+    - ios/Runner.xcodeproj/xcshareddata/
+    - ios/Runner.xcodeproj/xcshareddata/xcschemes/
+    - ios/Runner.xcodeproj/project.xcworkspace/
+    - ios/Runner.xcodeproj/project.xcworkspace/xcshareddata/
+    - ios/Runner.xcworkspace/
+    - ios/Runner.xcworkspace/xcshareddata/
+    - lib/
+    - web/
+    - web/icons/
+    - test/
+    - .idea/
+    - .idea/libraries/
+    - .idea/runConfigurations/
+    - build/
+    - build/app/
+    - build/app/tmp/
+    - build/app/tmp/kotlin-classes/
+    - build/app/tmp/kotlin-classes/debug/
+    - build/app/tmp/kotlin-classes/debug/com/
+    - build/app/tmp/kotlin-classes/debug/com/example/
+    - build/app/tmp/kotlin-classes/debug/com/example/tutorials/
+    - build/app/tmp/kotlin-classes/debug/META-INF/
+    - build/app/tmp/compileDebugJavaWithJavac/
+    - build/app/tmp/packLibsflutterBuildDebug/
+    - build/app/kotlin/
+    - build/app/kotlin/compileDebugKotlin/
+    - build/app/kotlin/compileDebugKotlin/cacheable/
+    - build/app/kotlin/compileDebugKotlin/cacheable/caches-jvm/
+    - build/app/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/
+    - build/app/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/
+    - build/app/kotlin/compileDebugKotlin/cacheable/caches-jvm/inputs/
+    - build/app/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/
+    - build/app/kotlin/compileDebugKotlin/local-state/
+    - build/app/outputs/
+    - build/app/outputs/apk/
+    - build/app/outputs/apk/debug/
+    - build/app/outputs/logs/
+    - build/app/outputs/flutter-apk/
+    - build/app/generated/
+    - build/app/generated/res/
+    - build/app/generated/res/pngs/
+    - build/app/generated/res/pngs/debug/
+    - build/app/generated/res/resValues/
+    - build/app/generated/res/resValues/debug/
+    - build/app/generated/source/
+    - build/app/generated/source/buildConfig/
+    - build/app/generated/source/buildConfig/debug/
+    - build/app/generated/source/buildConfig/debug/com/
+    - build/app/generated/source/buildConfig/debug/com/example/
+    - build/app/generated/source/buildConfig/debug/com/example/tutorials/
+    - build/app/generated/ap_generated_sources/
+    - build/app/generated/ap_generated_sources/debug/
+    - build/app/generated/ap_generated_sources/debug/out/
+    - build/app/intermediates/
+    - build/app/intermediates/dex/
+    - build/app/intermediates/dex/debug/
+    - build/app/intermediates/dex/debug/mergeDexDebug/
+    - build/app/intermediates/javac/
+    - build/app/intermediates/javac/debug/
+    - build/app/intermediates/javac/debug/classes/
+    - build/app/intermediates/javac/debug/classes/io/
+    - build/app/intermediates/javac/debug/classes/io/flutter/
+    - build/app/intermediates/javac/debug/classes/io/flutter/plugins/
+    - build/app/intermediates/javac/debug/classes/com/
+    - build/app/intermediates/javac/debug/classes/com/example/
+    - build/app/intermediates/javac/debug/classes/com/example/tutorials/
+    - build/app/intermediates/assets/
+    - build/app/intermediates/assets/debug/
+    - build/app/intermediates/assets/debug/flutter_assets/
+    - build/app/intermediates/assets/debug/flutter_assets/fonts/
+    - build/app/intermediates/assets/debug/flutter_assets/shaders/
+    - build/app/intermediates/assets/debug/flutter_assets/packages/
+    - build/app/intermediates/assets/debug/flutter_assets/packages/cupertino_icons/
+    - build/app/intermediates/assets/debug/flutter_assets/packages/cupertino_icons/assets/
+    - build/app/intermediates/flutter/
+    - build/app/intermediates/flutter/debug/
+    - build/app/intermediates/flutter/debug/flutter_assets/
+    - build/app/intermediates/flutter/debug/flutter_assets/fonts/
+    - build/app/intermediates/flutter/debug/flutter_assets/shaders/
+    - build/app/intermediates/flutter/debug/flutter_assets/packages/
+    - build/app/intermediates/flutter/debug/flutter_assets/packages/cupertino_icons/
+    - build/app/intermediates/flutter/debug/flutter_assets/packages/cupertino_icons/assets/
+    - build/app/intermediates/merged_res/
+    - build/app/intermediates/merged_res/debug/
+    - build/app/intermediates/incremental/
+    - build/app/intermediates/incremental/debug/
+    - build/app/intermediates/incremental/debug/mergeDebugResources/
+    - build/app/intermediates/incremental/debug/mergeDebugResources/merged.dir/
+    - build/app/intermediates/incremental/debug/mergeDebugResources/merged.dir/values/
+    - build/app/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-af/
+    - build/app/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-am/
+    - build/app/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-ar/
+    - build/app/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-as/
+    - build/app/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-az/
+    - build/app/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-be/
+    - build/app/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-bg/
+    - build/app/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-bn/
+    - build/app/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-bs/
+    - build/app/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-ca/
+    - build/app/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-cs/
+    - build/app/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-da/
+    - build/app/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-de/
+    - build/app/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-el/
+    - build/app/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-es/
+    - build/app/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-et/
+    - build/app/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-eu/
+    - build/app/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-fa/
+    - build/app/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-fi/
+    - build/app/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-fr/
+    - build/app/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-gl/
+    - build/app/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-gu/
+    - build/app/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-hi/
+    - build/app/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-hr/
+    - build/app/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-hu/
+    - build/app/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-hy/
+    - build/app/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-in/
+    - build/app/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-is/
+    - build/app/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-it/
+    - build/app/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-iw/
+    - build/app/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-ja/
+    - build/app/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-ka/
+    - build/app/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-kk/
+    - build/app/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-km/
+    - build/app/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-kn/
+    - build/app/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-ko/
+    - build/app/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-ky/
+    - build/app/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-lo/
+    - build/app/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-lt/
+    - build/app/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-lv/
+    - build/app/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-mk/
+    - build/app/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-ml/
+    - build/app/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-mn/
+    - build/app/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-mr/
+    - build/app/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-ms/
+    - build/app/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-my/
+    - build/app/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-nb/
+    - build/app/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-ne/
+    - build/app/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-nl/
+    - build/app/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-or/
+    - build/app/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-pa/
+    - build/app/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-pl/
+    - build/app/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-pt/
+    - build/app/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-ro/
+    - build/app/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-ru/
+    - build/app/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-si/
+    - build/app/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-sk/
+    - build/app/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-sl/
+    - build/app/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-sq/
+    - build/app/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-sr/
+    - build/app/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-sv/
+    - build/app/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-sw/
+    - build/app/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-ta/
+    - build/app/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-te/
+    - build/app/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-th/
+    - build/app/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-tl/
+    - build/app/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-tr/
+    - build/app/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-uk/
+    - build/app/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-ur/
+    - build/app/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-uz/
+    - build/app/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-vi/
+    - build/app/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-zu/
+    - build/app/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-v16/
+    - build/app/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-v21/
+    - build/app/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-en-rAU/
+    - build/app/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-en-rCA/
+    - build/app/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-en-rGB/
+    - build/app/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-en-rIN/
+    - build/app/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-en-rXC/
+    - build/app/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-es-rUS/
+    - build/app/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-fr-rCA/
+    - build/app/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-pt-rBR/
+    - build/app/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-pt-rPT/
+    - build/app/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-zh-rCN/
+    - build/app/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-zh-rHK/
+    - build/app/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-zh-rTW/
+    - build/app/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-night-v8/
+    - build/app/intermediates/incremental/debug/mergeDebugResources/merged.dir/values-b+sr+Latn/
+    - build/app/intermediates/incremental/debug/mergeDebugResources/stripped.dir/
+    - build/app/intermediates/incremental/packageDebug/
+    - build/app/intermediates/incremental/packageDebug/tmp/
+    - build/app/intermediates/incremental/packageDebug/tmp/debug/
+    - build/app/intermediates/incremental/packageDebug/tmp/debug/zip-cache/
+    - build/app/intermediates/incremental/mergeDebugAssets/
+    - build/app/intermediates/incremental/mergeDebugShaders/
+    - build/app/intermediates/incremental/debug-mergeJavaRes/
+    - build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/
+    - build/app/intermediates/incremental/mergeDebugJniLibFolders/
+    - build/app/intermediates/app_metadata/
+    - build/app/intermediates/app_metadata/debug/
+    - build/app/intermediates/desugar_graph/
+    - build/app/intermediates/desugar_graph/debug/
+    - build/app/intermediates/desugar_graph/debug/out/
+    - build/app/intermediates/desugar_graph/debug/out/mixedScopes/
+    - build/app/intermediates/desugar_graph/debug/out/externalLibs/
+    - build/app/intermediates/desugar_graph/debug/out/otherProjects/
+    - build/app/intermediates/desugar_graph/debug/out/currentProject/
+    - build/app/intermediates/desugar_graph/debug/out/currentProject/dirs_bucket_0/
+    - build/app/intermediates/desugar_graph/debug/out/currentProject/dirs_bucket_1/
+    - build/app/intermediates/desugar_graph/debug/out/currentProject/dirs_bucket_2/
+    - build/app/intermediates/desugar_graph/debug/out/currentProject/dirs_bucket_3/
+    - build/app/intermediates/desugar_graph/debug/out/currentProject/jar_e545d988defe78e85c9922937f16c0feb9d52e862656f5151740aa02e8fe7f79_bucket_0/
+    - build/app/intermediates/desugar_graph/debug/out/currentProject/jar_e545d988defe78e85c9922937f16c0feb9d52e862656f5151740aa02e8fe7f79_bucket_1/
+    - build/app/intermediates/desugar_graph/debug/out/currentProject/jar_e545d988defe78e85c9922937f16c0feb9d52e862656f5151740aa02e8fe7f79_bucket_2/
+    - build/app/intermediates/desugar_graph/debug/out/currentProject/jar_e545d988defe78e85c9922937f16c0feb9d52e862656f5151740aa02e8fe7f79_bucket_3/
+    - build/app/intermediates/processed_res/
+    - build/app/intermediates/processed_res/debug/
+    - build/app/intermediates/processed_res/debug/out/
+    - build/app/intermediates/merged_shaders/
+    - build/app/intermediates/merged_shaders/debug/
+    - build/app/intermediates/merged_shaders/debug/out/
+    - build/app/intermediates/merged_java_res/
+    - build/app/intermediates/merged_java_res/debug/
+    - build/app/intermediates/merged_jni_libs/
+    - build/app/intermediates/merged_jni_libs/debug/
+    - build/app/intermediates/merged_jni_libs/debug/out/
+    - build/app/intermediates/merged_manifest/
+    - build/app/intermediates/merged_manifest/debug/
+    - build/app/intermediates/navigation_json/
+    - build/app/intermediates/navigation_json/debug/
+    - build/app/intermediates/merged_manifests/
+    - build/app/intermediates/merged_manifests/debug/
+    - build/app/intermediates/compressed_assets/
+    - build/app/intermediates/compressed_assets/debug/
+    - build/app/intermediates/compressed_assets/debug/out/
+    - build/app/intermediates/compressed_assets/debug/out/assets/
+    - build/app/intermediates/compressed_assets/debug/out/assets/flutter_assets/
+    - build/app/intermediates/compressed_assets/debug/out/assets/flutter_assets/fonts/
+    - build/app/intermediates/compressed_assets/debug/out/assets/flutter_assets/shaders/
+    - build/app/intermediates/compressed_assets/debug/out/assets/flutter_assets/packages/
+    - build/app/intermediates/compressed_assets/debug/out/assets/flutter_assets/packages/cupertino_icons/
+    - build/app/intermediates/compressed_assets/debug/out/assets/flutter_assets/packages/cupertino_icons/assets/
+    - build/app/intermediates/external_libs_dex/
+    - build/app/intermediates/external_libs_dex/debug/
+    - build/app/intermediates/external_libs_dex/debug/mergeExtDexDebug/
+    - build/app/intermediates/aar_metadata_check/
+    - build/app/intermediates/aar_metadata_check/debug/
+    - build/app/intermediates/merged_native_libs/
+    - build/app/intermediates/merged_native_libs/debug/
+    - build/app/intermediates/merged_native_libs/debug/out/
+    - build/app/intermediates/merged_native_libs/debug/out/lib/
+    - build/app/intermediates/merged_native_libs/debug/out/lib/x86/
+    - build/app/intermediates/merged_native_libs/debug/out/lib/x86_64/
+    - build/app/intermediates/merged_native_libs/debug/out/lib/arm64-v8a/
+    - build/app/intermediates/packaged_manifests/
+    - build/app/intermediates/packaged_manifests/debug/
+    - build/app/intermediates/project_dex_archive/
+    - build/app/intermediates/project_dex_archive/debug/
+    - build/app/intermediates/project_dex_archive/debug/out/
+    - build/app/intermediates/project_dex_archive/debug/out/io/
+    - build/app/intermediates/project_dex_archive/debug/out/io/flutter/
+    - build/app/intermediates/project_dex_archive/debug/out/io/flutter/plugins/
+    - build/app/intermediates/project_dex_archive/debug/out/com/
+    - build/app/intermediates/project_dex_archive/debug/out/com/example/
+    - build/app/intermediates/project_dex_archive/debug/out/com/example/tutorials/
+    - build/app/intermediates/runtime_symbol_list/
+    - build/app/intermediates/runtime_symbol_list/debug/
+    - build/app/intermediates/source_set_path_map/
+    - build/app/intermediates/source_set_path_map/debug/
+    - build/app/intermediates/stripped_native_libs/
+    - build/app/intermediates/stripped_native_libs/debug/
+    - build/app/intermediates/stripped_native_libs/debug/out/
+    - build/app/intermediates/stripped_native_libs/debug/out/lib/
+    - build/app/intermediates/stripped_native_libs/debug/out/lib/x86/
+    - build/app/intermediates/stripped_native_libs/debug/out/lib/x86_64/
+    - build/app/intermediates/stripped_native_libs/debug/out/lib/arm64-v8a/
+    - build/app/intermediates/apk_ide_redirect_file/
+    - build/app/intermediates/apk_ide_redirect_file/debug/
+    - build/app/intermediates/duplicate_classes_check/
+    - build/app/intermediates/duplicate_classes_check/debug/
+    - build/app/intermediates/merged_res_blame_folder/
+    - build/app/intermediates/merged_res_blame_folder/debug/
+    - build/app/intermediates/merged_res_blame_folder/debug/out/
+    - build/app/intermediates/merged_res_blame_folder/debug/out/single/
+    - build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/
+    - build/app/intermediates/mixed_scope_dex_archive/
+    - build/app/intermediates/mixed_scope_dex_archive/debug/
+    - build/app/intermediates/mixed_scope_dex_archive/debug/out/
+    - build/app/intermediates/signing_config_versions/
+    - build/app/intermediates/signing_config_versions/debug/
+    - build/app/intermediates/sub_project_dex_archive/
+    - build/app/intermediates/sub_project_dex_archive/debug/
+    - build/app/intermediates/sub_project_dex_archive/debug/out/
+    - build/app/intermediates/validate_signing_config/
+    - build/app/intermediates/validate_signing_config/debug/
+    - build/app/intermediates/annotation_processor_list/
+    - build/app/intermediates/annotation_processor_list/debug/
+    - build/app/intermediates/external_libs_dex_archive/
+    - build/app/intermediates/external_libs_dex_archive/debug/
+    - build/app/intermediates/external_libs_dex_archive/debug/out/
+    - build/app/intermediates/manifest_merge_blame_file/
+    - build/app/intermediates/manifest_merge_blame_file/debug/
+    - build/app/intermediates/compatible_screen_manifest/
+    - build/app/intermediates/compatible_screen_manifest/debug/
+    - build/app/intermediates/dex_number_of_buckets_file/
+    - build/app/intermediates/dex_number_of_buckets_file/debug/
+    - build/app/intermediates/dex_archive_input_jar_hashes/
+    - build/app/intermediates/dex_archive_input_jar_hashes/debug/
+    - build/app/intermediates/symbol_list_with_package_name/
+    - build/app/intermediates/symbol_list_with_package_name/debug/
+    - build/app/intermediates/external_file_lib_dex_archives/
+    - build/app/intermediates/external_file_lib_dex_archives/debug/
+    - build/app/intermediates/data_binding_layout_info_type_merge/
+    - build/app/intermediates/data_binding_layout_info_type_merge/debug/
+    - build/app/intermediates/data_binding_layout_info_type_merge/debug/out/
+    - build/app/intermediates/compile_and_runtime_not_namespaced_r_class_jar/
+    - build/app/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/
+    - build/app/intermediates/external_libs_dex_archive_with_artifact_transforms/
+    - build/app/intermediates/external_libs_dex_archive_with_artifact_transforms/debug/
+    - build/app/intermediates/external_libs_dex_archive_with_artifact_transforms/debug/out/
+    - build/34fd3b55f1e5e63625b8d16cabfe5b49/
+    - linux/
+    - linux/flutter/
+    - macos/
+    - macos/Runner/
+    - macos/Runner/Configs/
+    - macos/Runner/Base.lproj/
+    - macos/Runner/Assets.xcassets/
+    - macos/Runner/Assets.xcassets/AppIcon.appiconset/
+    - macos/Flutter/
+    - macos/Flutter/ephemeral/
+    - macos/Runner.xcodeproj/
+    - macos/Runner.xcodeproj/xcshareddata/
+    - macos/Runner.xcodeproj/xcshareddata/xcschemes/
+    - macos/Runner.xcodeproj/project.xcworkspace/
+    - macos/Runner.xcodeproj/project.xcworkspace/xcshareddata/
+    - macos/Runner.xcworkspace/
+    - macos/Runner.xcworkspace/xcshareddata/
+    - android/
+    - android/app/
+    - android/app/src/
+    - android/app/src/main/
+    - android/app/src/main/res/
+    - android/app/src/main/res/values/
+    - android/app/src/main/res/drawable/
+    - android/app/src/main/res/mipmap-hdpi/
+    - android/app/src/main/res/mipmap-mdpi/
+    - android/app/src/main/res/drawable-v21/
+    - android/app/src/main/res/mipmap-xhdpi/
+    - android/app/src/main/res/values-night/
+    - android/app/src/main/res/mipmap-xxhdpi/
+    - android/app/src/main/res/mipmap-xxxhdpi/
+    - android/app/src/main/java/
+    - android/app/src/main/java/io/
+    - android/app/src/main/java/io/flutter/
+    - android/app/src/main/java/io/flutter/plugins/
+    - android/app/src/main/kotlin/
+    - android/app/src/main/kotlin/com/
+    - android/app/src/main/kotlin/com/example/
+    - android/app/src/main/kotlin/com/example/tutorials/
+    - android/app/src/debug/
+    - android/app/src/profile/
+    - android/.idea/
+    - android/gradle/
+    - android/gradle/wrapper/
+    - android/.gradle/
+    - android/.gradle/7.5/
+    - android/.gradle/7.5/checksums/
+    - android/.gradle/7.5/fileHashes/
+    - android/.gradle/7.5/fileChanges/
+    - android/.gradle/7.5/vcsMetadata/
+    - android/.gradle/7.5/executionHistory/
+    - android/.gradle/7.5/dependencies-accessors/
+    - android/.gradle/vcs-1/
+    - android/.gradle/buildOutputCleanup/
+    - windows/
+    - windows/runner/
+    - windows/runner/resources/
+    - windows/flutter/
+    - .dart_tool/
+    - .dart_tool/dartpad/
+

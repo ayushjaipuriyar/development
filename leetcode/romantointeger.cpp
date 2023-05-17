@@ -1,4 +1,5 @@
 #include <bits/stdc++.h>
+
 using namespace std;
 
 int value(char x) {
@@ -33,7 +34,7 @@ int value(char x) {
   return -1;
 }
 
-int romanToInt(string& s) {
+int romanToInt(string &s) {
   int res = 0;
   for (int i = 0; i < s.length(); i++) {
     int s1 = value(s[i]);
